@@ -1,3 +1,5 @@
+This repository is for https://github.com/Azure/azure-functions-durable-js/issues/66
+
 # How to run
 
 - npm install
