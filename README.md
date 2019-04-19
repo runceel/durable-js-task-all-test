@@ -2,6 +2,7 @@
 
 - npm install
 - npm run prestart
+- Start Azure Storage Emulator
 - npm run start:host
 - access to `http://localhost:7071/api/DurableFunctionsHttpStart`
 
