@@ -83,7 +83,6 @@ typings/
 bin
 obj
 appsettings.json
-local.settings.json
 
 # TypeScript output
 dist
