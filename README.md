@@ -7,8 +7,8 @@
 
 ## Expect
 
-The orchestrator function returns "Error".
-Because ErrorActivity function is always throw an Error.
+The orchestrator function returns a string value "Error".
+Because ErrorActivity function is always throw an Error, so always go to catch block.
 
 ```typescript
 const orchestrator = df.orchestrator(function* (context) {
@@ -25,7 +25,7 @@ const orchestrator = df.orchestrator(function* (context) {
 
 ## Actual
 
-The orchestrator function returns an array of Error.
+The orchestrator function returns an array of Error information.
 
 ```
 {
